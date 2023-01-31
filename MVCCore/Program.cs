@@ -14,7 +14,8 @@ namespace MVCCore
         {
             var host = CreateHostBuilder(args).Build();
 
-            CreateDbIfNotExists(host);
+            // 没有数据库之前的执行
+            //CreateDbIfNotExists(host); 
 
             host.Run();
         }

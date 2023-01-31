@@ -2,7 +2,6 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
-using MVCCore.Models;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;

@@ -1,8 +1,8 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System;
 
-namespace MVCCore.Models
-{
+namespace ContosoUniversity.Models
+{ 
     public class EnrollmentDateGroup
     {
         [DataType(DataType.Date)]
